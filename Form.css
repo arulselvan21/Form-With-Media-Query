@@ -1,0 +1,56 @@
+body{
+    
+     padding: 10px;;    
+     min-width: none;
+     overflow-x: hidden;
+     margin:100px 200px;
+     border: 4px solid blue;
+     height: 220px;
+     width:50%;
+ 
+
+}
+input{
+     height: 30px; width: 30%;
+     border-radius: 5px;
+     border-color: #222 ;
+}
+.mail{
+    height:40px;
+    width:96%;
+}
+.mobile{
+     height: 40px;
+     width:96%;
+}
+.submit{
+     height:40px;
+     width: 97%;
+     background-color: green ;
+      color: #fff;
+      border-radius: 5px;
+} 
+.fn{
+     width: 47%;
+}
+.sn{
+     width: 47%;
+}
+.win{
+     background-color: rosybrown;
+     color:#222;
+}
+@media screen and (min-width:300px) and (min-height:600px) and (orientation:portrait){
+     .win{
+          background-color: aqua;
+     }
+          
+     }
+
+@media screen and (min-width:300px) and (min-height:600px) and (orientation:landscape){
+     .win{
+          background-color:yellow;
+     }
+          
+     }
+
